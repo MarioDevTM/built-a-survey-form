@@ -1,0 +1,48 @@
+** start of index.html **
+
+<h1 id=title>Im bad</h1>
+  <p id=description>Testing</p>
+  
+  <form id=survey-form>
+    <textarea></textarea>
+    |<label id=name-label for="name">Enter Your Name:</label>
+    <input id=name type=text required placeholder=Bobby>
+
+    <label id=email-label for="email">Enter Your Email:</label>
+    <input id=email type=email required placeholder=gimi@gmail.com>
+
+    <label id=number-label for="number">Enter Your Number:</label>
+    <input id=number type=number min=1 max=9 required placeholder=5>
+<form id="survey-form">
+  <p>Choose your preference (Skibid/Tortoise):</p> 
+  <label>
+    <input id="skibid-radio" type="radio" name="preference" value="3"> Skibid Option 1
+  </label> 
+  <label>
+    <input id="tortoise-radio" type="radio" name="preference" value="4"> Tortoise Option 2
+  </label> 
+<input type=checkbox value=square>
+<input type=checkbox value=square>
+<input type=submit id=submit>
+  <br><br>
+  <label for="dropdown">Select an Option:</label>
+  <select id="dropdown" name="dropdown-menu">
+    <option value="">(Select one)</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+  </select>   
+  <br><br>
+  <button type="submit">Submit Form</button>
+  <button type="reset">Reset Form</button>
+  
+</form>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+
+
+** end of styles.css **
+
